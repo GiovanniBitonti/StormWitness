@@ -123,7 +123,7 @@ The review thresholds are illustrative, not insurance-industry standards. They c
 Further information is available in:
 
 - `docs/TECHNICAL_WRITEUP.md` — API integration and engineering decisions
-- `docs/AI_PROMPT_HISTORY.md` — development prompt history
+- `docs/AI_Conversation.pdf` — development prompt history
 - `docs/PLAN.md` — implementation stages
 
 **Licensing:** Open-Meteo's free API is used for non-commercial evaluation. Operational insurance use requires appropriate commercial authorisation or an alternative licensed provider.
