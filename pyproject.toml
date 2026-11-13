@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68,<90"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stormwitness"
+version = "0.4.0"
+description = "UK postcode and historical-weather context CLI (incremental educational prototype)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27,<0.29"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+stormwitness = "stormwitness.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
